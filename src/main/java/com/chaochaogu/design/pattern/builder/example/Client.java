@@ -16,8 +16,29 @@ public class Client {
         sequences.add("alarm");
         sequences.add("engineBoom");
         sequences.add("stop");
-        FerrariCarModel ferrariCarModel = new FerrariCarModel();
-        ferrariCarModel.setSequences(sequences);
-        ferrariCarModel.run();
+        BenzBuilder benzBuilder = new BenzBuilder();
+        benzBuilder.setSequences(sequences);
+        // 制造出一个奔驰车模型
+        BenzCarModel benzCarModel = (BenzCarModel) benzBuilder.getCarModel();
+        benzCarModel.run();
+        // 以同样的顺序制造出一个法拉利模型
+        FerrariBuilder ferrariBuilder = new FerrariBuilder();
+        ferrariBuilder.setSequences(sequences);
+        CarModel ferrariModel = ferrariBuilder.getCarModel();
+        ferrariModel.run();
+        // 批量造车试跑
+        Director director = new Director();
+        for (int i = 0; i < 100; i++) {
+            director.getABenzCarModel().run();
+        }
+        for (int i = 0; i < 200; i++) {
+            director.getBBenzCarModel().run();
+        }
+        for (int i = 0; i < 300; i++) {
+            director.getCFerrariCarModel().run();
+        }
+        for (int i = 0; i < 400; i++) {
+            director.getDFerrariCarModel().run();
+        }
     }
 }
