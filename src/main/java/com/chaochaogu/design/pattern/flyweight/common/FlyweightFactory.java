@@ -2,14 +2,16 @@ package com.chaochaogu.design.pattern.flyweight.common;
 
 import com.google.common.collect.Maps;
 
+import javax.annotation.concurrent.NotThreadSafe;
 import java.util.HashMap;
 
 /**
- * 享元工厂
+ * 享元工厂（非线程安全）
  *
  * @author chaochao Gu
  * @date 2020/9/27
  */
+@NotThreadSafe
 public class FlyweightFactory {
 
     /**
