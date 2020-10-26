@@ -18,3 +18,8 @@
 门面模式是一个粗粒度的封装，它提供一个方便访问子系统的接口，不具有任何的业务
 逻辑，仅仅是一个访问复杂系统的快速通道，没有它，子系统照样运行，有了它，只是更方
 便访问而已。
+
+![代理模式](https://pic.downk.cc/item/5f9640f91cd1bbb86bc14d6b.jpg)
+![装饰模式](https://pic.downk.cc/item/5f9641341cd1bbb86bc157e3.jpg)
+![适配器模式](https://pic.downk.cc/item/5f9641661cd1bbb86bc162df.jpg)
+![桥梁模式](https://pic.downk.cc/item/5f96419a1cd1bbb86bc16e96.jpg)

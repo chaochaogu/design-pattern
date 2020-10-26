@@ -22,3 +22,6 @@
 ● 使用场景不同
 策略模式适用于算法要求变换的场景，而命令模式适用于解耦两个有紧耦合关系的对象
 场合或者多命令多撤销的场景。
+
+![策略模式实现压缩算法](https://pic.downk.cc/item/5f963cc31cd1bbb86bc083db.jpg)
+![命令模式实现压缩算法](https://pic.downk.cc/item/5f963cf41cd1bbb86bc08c57.jpg)

@@ -15,3 +15,6 @@ AOP，这是各位采用Spring架构开发必然要使用到的技术，它就�
 OutputStream out = new DataOutputStream（new FileOutputStream（"test.txt"））
 这是装饰模式的一个典型应用，使用DataOutputStream封装了一个FileOutputStream，以方
 便进行输出流处理。
+
+![代理模式](https://pic.downk.cc/item/5f963ba41cd1bbb86bc04e4b.jpg)
+![装饰模式](https://pic.downk.cc/item/5f963bcc1cd1bbb86bc05703.jpg)
