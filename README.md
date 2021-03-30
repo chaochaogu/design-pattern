@@ -1,2 +1,2 @@
 # design-pattern
-设计模式demo
+设计模式笔记
